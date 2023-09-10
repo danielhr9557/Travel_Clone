@@ -1,7 +1,8 @@
 import React from "react";
 import Currency from "./Currency";
+import LangRegion from "./LangRegion";
 
-function LangAndReg () {
+function MainModalContainer () {
   return (
     <div>
       <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -15,10 +16,10 @@ function LangAndReg () {
             <div className="modal-header">
               <nav>
                 <div className="nav nav-underline" id="nav-tab" role="tablist">
-                  <button className="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Idioma y Región</button>
-                  <button className="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Moneda1</button>
-                  
+                                   
                   {/* Nuevos botones */}
+                  <button className="nav-link active" aria-current="page" id="nav-lang-region-tab" data-bs-toggle="tab" data-bs-target="#nav-lang-region" type="button" role="tab" aria-controls="nav-lang-region" aria-selected="false">Idioma y Región</button>
+
                   <button className="nav-link" id="nav-currency-tab" data-bs-toggle="tab" data-bs-target="#nav-currency" type="button" role="tab" aria-controls="nav-currency" aria-selected="false">Moneda</button>
                 </div>
               </nav>
@@ -32,13 +33,13 @@ function LangAndReg () {
               
               <nav>
                 <div className="tab-content" id="nav-tabContent">
-
-
-                  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">123</div>
-                  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">456</div>
                   
                   {/* Nuevos Divs */}
+                  <div className="tab-pane fade active show" id="nav-lang-region" role="tabpanel" aria-labelledby="nav-lang-region-tab" tabindex="0" ><LangRegion/></div>
+
                   <div className="tab-pane fade" id="nav-currency" role="tabpanel" aria-labelledby="nav-currency-tab" tabindex="0"><Currency /></div>
+
+                  
                   
                 </div>
               </nav>
@@ -54,4 +55,4 @@ function LangAndReg () {
   )
 }
 
-export default LangAndReg;
+export default MainModalContainer;

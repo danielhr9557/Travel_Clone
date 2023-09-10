@@ -5,9 +5,9 @@ function Currency() {
     <div>
       <h2>Selecciona una moneda</h2>
       <br/>
-      <button type="button" class="btn btn-light btn-block">Peso Colombiano <br/><span>COP - $</span></button>
-      <button type="button" class="btn btn-light btn-block">Dólar Estadounidense <br/><span>USD - $</span></button>
-      <button type="button" class="btn btn-light btn-block">Euro <br/><span>EUR - €</span></button>
+      <button type="button" class="btn btn-light btn-block">Peso Colombiano <br/>COP - $</button>
+      <button type="button" class="btn btn-light btn-block">Dólar Estadounidense <br/>USD - $</button>
+      <button type="button" class="btn btn-light btn-block">Euro <br/>EUR - €</button>
     
     </div>
     
