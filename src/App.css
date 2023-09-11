@@ -4,3 +4,11 @@
   font-size: 20px;
   padding: 0px 40px;
 }
+
+.modal-80 {
+  max-width: 80%;
+}
+
+.middle {
+  margin-right: 1rem;
+}
