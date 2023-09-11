@@ -1,0 +1,50 @@
+.modal-dialog {
+  max-width: 80%;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.btn-middle {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  border-radius: 0%;
+}
+
+.btn-left {
+  border-left: 1px solid grey;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 21px;
+  border-top-left-radius: 21px;
+
+}
+
+.btn-right {
+  border-right: 1px solid grey;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 21px;
+  border-top-right-radius: 21px;
+}
+
+.btn-search {
+  border-radius: 50%;
+  padding: 4px 9px;
+  height: 16px;
+  background-color: #49a4f5;
+}
+
+.search-button-span {
+  margin-left: 10px;
+}
+
+.tab5 {
+  height: 0px;
+}
+

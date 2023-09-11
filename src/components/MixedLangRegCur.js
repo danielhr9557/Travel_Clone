@@ -1,15 +1,13 @@
 import React from "react";
 import { Currency, LangRegion } from "./LangRegCur";
 
-
-function MainModalContainer () {
+function MixedLangRegCur () {
   return (
     <div>
-      <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#MainModalContainer">
-        ESP
+      <button type="button" className="btn" data-bs-toggle="modal" data-bs-target="#MixedLangRegCur">
+        <i class="bi bi-globe2"></i>
       </button>
-
-      <div className="modal fade" id="MainModalContainer" tabIndex="-1" aria-labelledby="MainModalContainerLabel" aria-hidden="true">
+      <div className="modal fade" id="MixedLangRegCur" tabIndex="-1" aria-labelledby="MixedLangRegCurLabel" aria-hidden="true">
         <div className="modal-dialog">
           <div className="modal-content">
             {/* Modal Header */}
@@ -31,30 +29,20 @@ function MainModalContainer () {
             </div>
             
             {/* Contenido del modal */}
-            <div className="modal-body">
-              
+            <div className="modal-body"> 
               <nav>
                 <div className="tab-content" id="nav-tabContent">
-                  
                   {/* Nuevos Divs */}
                   <div className="tab-pane fade active show" id="nav-lang-region" role="tabpanel" aria-labelledby="nav-lang-region-tab" tabindex="0" ><LangRegion/></div>
-
                   <div className="tab-pane fade" id="nav-currency" role="tabpanel" aria-labelledby="nav-currency-tab" tabindex="0"><Currency /></div>
-
-                  
-                  
                 </div>
               </nav>
             </div>
-
-            
           </div>
         </div>
       </div>
-
-
     </div>
   )
 }
 
-export  {MainModalContainer};
+export  {MixedLangRegCur};
