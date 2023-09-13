@@ -13,17 +13,19 @@ import { UserDropdown } from './components/UserDropdown';
 function App() {
   return (
     <div className="App">
+      <header>
         <nav className='navbar'>
-          <a href='https://www.google.com'><i class="bi bi-airplane"/></a>
+          <a href='https://www.google.com'><i class="bi bi-cloud-haze2"/></a>
           <form className='d-flex'>
             <div>
               <SearchingBar />
             </div>
           </form>
           <a className="nav-bar-link" href='https://www.google.com'>Publica tu espacio en Travel</a>
-          <MixedLangRegCur />
-          <UserDropdown /> 
+          <MixedLangRegCur className="mr-2"/>
+          <UserDropdown className="mr-2" /> 
         </nav>
+      </header>
 
 {/* Testing Area  */}
 
@@ -34,7 +36,6 @@ function App() {
       {/* Separador del Body y Footer */}
       <div style={{height: '500px'}}></div>
       
-      {/* Footer */}
       <footer>
         <div className="container d-flex align-items-center justify-content-center">
           <LanRegBottom />

@@ -1,13 +1,21 @@
 .navbar {
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgb(214, 212, 212);
   height: 80px;
   font-size: 14px;
   padding: 0px 40px;
+  background-color: rgb(252, 251, 251);
+  
 }
 
 .nav-bar-link {
   text-decoration: none;
   color: #212529 ;
+  font-weight: 500;
+}
+
+.bi-cloud-haze2 {
+  font-size: 36px;
+  color: #6ae155;
 }
 
 .modal-80 {

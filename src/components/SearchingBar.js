@@ -11,6 +11,7 @@ function SearchingBar () {
   return (
     <div>
       {/* Botones para iniciar Modal */}
+      <div className="searching-bar-container">
       <button type="button" className="btn btn-left search-group" data-bs-toggle="modal" data-bs-target="#searchModal" onClick={() => handdleActiveTab('tab1')}>
         ¿Adónde vas?
       </button>
@@ -26,6 +27,7 @@ function SearchingBar () {
           <i className="bi bi-search"></i>
         </span>
       </button>
+      </div>
 
       {/* Modal */}
       <div className="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
