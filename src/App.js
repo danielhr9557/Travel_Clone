@@ -8,6 +8,7 @@ import LanRegBottom from './components/LanRegBottom';
 import CurrencyBottom from './components/CurrencyBottom';
 import { SearchingBar } from './components/SearchingBar';
 import { UserDropdown } from './components/UserDropdown';
+import { Categories } from './components/Caterogies';
 
 
 function App() {
@@ -26,8 +27,10 @@ function App() {
           <UserDropdown className="mr-2" /> 
         </nav>
       </header>
+      <Categories />
 
 {/* Testing Area  */}
+
 
 
 

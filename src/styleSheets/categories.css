@@ -1,0 +1,11 @@
+.second-navbar {
+  margin-top: 25px;
+}
+
+.btn-settings {
+  margin-left: 30px;
+  padding: 0px 12px;
+  height: 40px;
+  border: 1px solid rgb(214, 212, 212);
+  color: black;
+}
