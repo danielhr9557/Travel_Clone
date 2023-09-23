@@ -4,53 +4,28 @@ import { CategoriesCarousel } from "./CategoriesCarousel";
 
 function Categories() {
   return(
-    <div className="container second-navbar">
-      <div className="d-flex align-items-center">
-        <CategoriesCarousel />
-
-        {/* <div className="d-flex ">
-          
-
-          <div className="btn d-flex flex-column" >
-            <i class="bi bi-rocket-takeoff"></i>
-              Impresionantes
-          </div>
-          <div className="btn d-flex flex-column" >
-            <i class="bi bi-buildings"></i>
-              Ciudades Famosas
-          </div>
-          <div className="btn d-flex flex-column" >
-            <i class="bi bi-house"></i>
-              Cabañas
-          </div>
-          <div className="btn d-flex flex-column" >
-            <i class="bi bi-house"></i>
-              Cabañas
-          </div>
-          <div className="btn d-flex flex-column" >
-            <i class="bi bi-house"></i>
-              Cabañas
-          </div>
-
-        </div> */}
-
-
-        
+    <div className="container second-navbar d-flex align-items-center">
+        <CategoriesCarousel />     
 
         {/* Filtros y precio sin impuestos */}
-        <div className="btn btn-outline-secondary btn-settings d-flex align-items-center" >
+        <div className="btn btn-outline-secondary btn-settings btn-filters d-flex align-items-center" >
           <i class="bi bi-sliders"></i>
+          <span className="label-filters">
             Filtros
+          </span>
+            
         </div>
 
-        <div className="btn btn-outline-secondary btn-settings d-flex align-items-center ml-auto">
-          <div class="form-check form-switch">
-              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
-              <label class="form-check-label" for="flexSwitchCheckDefault">Precio total sin impuestos</label>
+        <div className="btn btn-outline-secondary btn-settings btn-taxes d-flex align-items-center ml-auto ">
+          <label className="form-check-label label-taxes text-nowrap" for="flexSwitchCheckDefault">Precio total sin impuestos</label>
+          <div className="form-check form-switch d-flex">
+            
+              <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+              
           </div>
         </div>
 
-      </div>
+      
 
     </div>
   );

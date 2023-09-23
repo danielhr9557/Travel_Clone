@@ -1,0 +1,8 @@
+.btn-mixed-lang-reg-cur {
+  border-radius: 50%;
+}
+
+.btn-mixed-lang-reg-cur:hover {
+  background-color: rgb(244, 242, 242);
+  border-radius: 50%;
+}

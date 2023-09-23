@@ -1,3 +1,7 @@
+/* body {
+  font-family: roboto;
+} */
+
 .navbar {
   border-bottom: 1px solid rgb(214, 212, 212);
   height: 80px;
@@ -24,4 +28,15 @@
 
 .middle {
   margin-right: 1rem;
+}
+
+.btn-share {
+  border-bottom-right-radius: 22px;
+  border-top-right-radius: 22px;
+  border-top-left-radius: 22px;
+  border-bottom-left-radius: 22px;
+}
+
+.btn-share:hover {
+  background-color: rgb(245, 245, 245);
 }

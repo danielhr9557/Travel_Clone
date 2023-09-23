@@ -22,7 +22,7 @@ function App() {
               <SearchingBar />
             </div>
           </form>
-          <a className="nav-bar-link" href='https://www.google.com'>Publica tu espacio en Travel</a>
+          <a className="nav-bar-link btn btn-share" href='https://www.google.com'>Publica tu espacio en Travel</a>
           <MixedLangRegCur className="mr-2"/>
           <UserDropdown className="mr-2" /> 
         </nav>

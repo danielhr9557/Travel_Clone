@@ -1,11 +1,46 @@
 .second-navbar {
   margin-top: 25px;
+  margin: 25px 40px 0px 40px;
+  padding: 0px;
 }
 
 .btn-settings {
-  margin-left: 30px;
   padding: 0px 12px;
   height: 40px;
   border: 1px solid rgb(214, 212, 212);
   color: black;
+}
+
+.btn-settings:hover {
+  background-color: white;
+  border: 1px solid rgb(214, 212, 212);
+  color: black;
+}
+
+.btn-filters {
+  margin-left: 30px;
+  
+}
+
+.label-filters {
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.btn-taxes  {
+  margin-left: 22px;
+}
+
+.label-taxes {
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+.form-switch {
+  font-size: 25px;
+  padding: 0px;
+}
+
+.form-check-input {
+  margin: 0px !important ;
 }

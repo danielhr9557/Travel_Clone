@@ -1,8 +1,38 @@
 .carousel-div {
-  width: 400px;
+  width: 590px;
   
 }
 
-.carousel-div2 {
+.btn-carousel {
+ border: solid grey 1px;
+ border-radius: 50%;
+ height: 35px;
+ width: 35px;
+ justify-content: center;
+ align-content: center;
+}
+
+.bi-carousel-arrow {
+  color: black;
+  font-size: 20px; 
+}
+
+.btn.btn-style {
+  border-bottom: solid 2px white;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
+
+.btn-style:hover {
+  border-bottom: solid 2px gray;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
+
+.bi-carousel {
+  font-size: 20px;
   
 }
+
+
+
