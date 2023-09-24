@@ -1,5 +1,9 @@
+.searching-bar-main-container {
+  width: 520px;
+}
+
 .searching-bar-container {
-  margin-left: 120px;
+  
   border: 1px solid rgb(214, 212, 212);
   border-bottom-left-radius: 21px;
   border-top-left-radius: 21px;
@@ -29,7 +33,6 @@
 
 .btn-left {
   padding-left: 25px;
-  
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 21px;
@@ -37,12 +40,10 @@
 }
 
 .btn-middle {
-  
   border-radius: 0%;
 }
 
 .btn-right {
-  
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 21px;

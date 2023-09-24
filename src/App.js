@@ -14,8 +14,48 @@ import { Categories } from './components/Caterogies';
 function App() {
   return (
     <div className="App">
-      <header>
-        <nav className='navbar'>
+      <nav className="navbar navbar-expand-md">
+        <div className="col">
+          <a href='https://www.google.com' className="logo d-flex align-items-center "><i className="bi bi-cloud-haze2"/>Cloud</a>
+        </div>
+
+        <div className="col">
+          <SearchingBar />
+        </div>
+
+        <div className="d-flex justify-content-end col">
+          <a className="nav-bar-link btn btn-share" href='https://www.google.com'>Publica tu espacio en Travel</a>
+          <MixedLangRegCur />
+          <UserDropdown /> 
+        </div>
+      </nav>
+
+
+
+      {/* <nav className="navbar navbar-expand-md d-flex ">
+       
+          <a href='https://www.google.com' className="logo d-flex align-items-center flex-grow-1"><i className="bi bi-cloud-haze2"/>Cloud</a>
+     
+
+          <div className="d-flex mx-auto ">
+            <SearchingBar />
+
+          </div>
+   
+
+        <div className="d-flex justify-content-end flex-grow-1">
+          <a className="nav-bar-link btn btn-share" href='https://www.google.com'>Publica tu espacio en Travel</a>
+          <MixedLangRegCur />
+          <UserDropdown /> 
+        </div>
+      </nav> */}
+
+ 
+
+
+
+      {/* <header>
+        <nav className='navbar container'>
           <a href='https://www.google.com'><i class="bi bi-cloud-haze2"/></a>
           <form className='d-flex'>
             <div>
@@ -26,8 +66,9 @@ function App() {
           <MixedLangRegCur className="mr-2"/>
           <UserDropdown className="mr-2" /> 
         </nav>
-      </header>
-      <Categories />
+        <Categories />
+      </header> */}
+      
 
 {/* Testing Area  */}
 

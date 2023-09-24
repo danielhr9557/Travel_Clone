@@ -9,24 +9,27 @@ function SearchingBar () {
   };
 
   return (
-    <div>
+    <div className="searching-bar-main-container">
       {/* Botones para iniciar Modal */}
-      <div className="searching-bar-container">
-        <button type="button" className="btn btn-left search-group" data-bs-toggle="modal" data-bs-target="#searchModal" onClick={() => handdleActiveTab('tab1')}>
-          ¿Adónde vas?
-        </button>
-        <button type="button" className="btn btn-middle search-group" data-bs-toggle="modal" data-bs-target="#searchModal" onClick={() => handdleActiveTab('tab2')}>
-          Llegada
-        </button>
-        <button type="button" className="btn btn-middle search-group" data-bs-toggle="modal" data-bs-target="#searchModal" onClick={() => handdleActiveTab('tab3')}>
-          Salida
-        </button>
-        <button type="button" className="btn btn-right search-group" data-bs-toggle="modal" data-bs-target="#searchModal" onClick={() => handdleActiveTab('tab4')}>
-          ¿Cuántos van?      
-          <span className="search-button-span" data-bs-toggle="modal" data-bs-target="#searchModal" onClick={(e) => {e.stopPropagation(); handdleActiveTab('tab5')}}>
-            <i className="bi bi-search"></i>
-          </span>
-        </button>
+      <div className="searching-bar-container  d-flex">
+       
+          <button type="button" className="btn btn-left search-group flex-grow-1" data-bs-toggle="modal" data-bs-target="#searchModal" onClick={() => handdleActiveTab('tab1')}>
+            A cualquier lugar del mundo
+          </button>
+          <button type="button" className="btn btn-middle search-group flex-grow-1" data-bs-toggle="modal" data-bs-target="#searchModal" onClick={() => handdleActiveTab('tab2')}>
+            ¿Cuándo?
+          </button>
+          {/* <button type="button" className="btn btn-middle search-group" data-bs-toggle="modal" data-bs-target="#searchModal" onClick={() => handdleActiveTab('tab3')}>
+            Salida
+          </button> */}
+          <button type="button" className="btn btn-right search-group flex-grow-1" data-bs-toggle="modal" data-bs-target="#searchModal" onClick={() => handdleActiveTab('tab4')}>
+            ¿Cuántos van?      
+            <span className="search-button-span" data-bs-toggle="modal" data-bs-target="#searchModal" onClick={(e) => {e.stopPropagation(); handdleActiveTab('tab5')}}>
+              <i className="bi bi-search"></i>
+            </span>
+          </button>
+
+      
       </div>
 
       {/* Modal */}
