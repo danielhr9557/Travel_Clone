@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap/dist/js/bootstrap.min.js";
 import './App.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import {MixedLangRegCur} from './components/MixedLangRegCur';
+import {  MixedLangRegCur } from './components/MixedLangRegCur';
 import LanRegBottom from './components/LanRegBottom';
 import CurrencyBottom from './components/CurrencyBottom';
 import { SearchingBar } from './components/SearchingBar';
@@ -29,6 +29,7 @@ function App() {
           <UserDropdown /> 
         </div>
       </nav>
+      <Categories />
 
 
 
@@ -78,7 +79,7 @@ function App() {
  {/* End of Testing Area */}
 
       {/* Separador del Body y Footer */}
-      <div style={{height: '500px'}}></div>
+      <div style={{height: '700px'}}></div>
       
       <footer>
         <div className="container d-flex align-items-center justify-content-center">

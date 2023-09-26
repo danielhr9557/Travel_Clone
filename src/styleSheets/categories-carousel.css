@@ -21,6 +21,12 @@
   border-bottom: solid 2px white;
   border-bottom-left-radius: 0%;
   border-bottom-right-radius: 0%;
+  padding: 6px 18px;
+  font-size: 13px;
+}
+
+.btn.btn-style.btn-first {
+  padding-left: 0px;
 }
 
 .btn-style:hover {
@@ -31,8 +37,9 @@
 
 .bi-carousel {
   font-size: 20px;
-  
 }
+
+
 
 
 

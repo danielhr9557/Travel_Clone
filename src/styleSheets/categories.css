@@ -1,8 +1,8 @@
 .second-navbar {
   margin-top: 25px;
-  margin: 25px 40px 0px 40px;
-  padding: 0px;
-  background-color: red;
+  margin: 25px 0px 0px 0px;
+  padding: 0px 80px;
+  width: 100%;
 }
 
 .btn-settings {
@@ -19,8 +19,7 @@
 }
 
 .btn-filters {
-  margin-left: 30px;
-  
+  margin-left: 15px;
 }
 
 .label-filters {
@@ -29,7 +28,7 @@
 }
 
 .btn-taxes  {
-  margin-left: 22px;
+  margin-left: 15px;
 }
 
 .label-taxes {
