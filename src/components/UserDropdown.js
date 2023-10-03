@@ -3,7 +3,7 @@ import "../styleSheets/user-dropdown.css";
 
 function UserDropdown () {
   return (
-    <div className='dropdown '>
+    <div className='dropdown d-none d-md-block'>
       <button className='btn user-dropdown-button' type='button' data-bs-toggle='dropdown' data-bs-display='static' aria-expanded='false'>
         <span className="bi-list-span">
           <i class="bi bi-list"></i>
