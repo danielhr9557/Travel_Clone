@@ -1,10 +1,41 @@
 import React from "react";
 import "../styleSheets/place-card.css";
+import Cabana011 from "../Images/Cabana_011.png";
+import Cabana012 from "../Images/Cabana_012.png";
+import Cabana013 from "../Images/Cabana_013.png";
 
 function PlaceCard () {
   return (
-    <div className="pc">
-      1 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, ab rerum earum laudantium adipisci cum repellendus animi error voluptates culpa pariatur deleniti minima! Debitis eos quas facilis quaerat iusto ut iste totam optio, sed modi excepturi corrupti dignissimos tempore, beatae rem officiis. Et expedita molestias eligendi voluptas aut sit est, dignissimos quis quos ea unde, voluptatibus cum, ex vitae saepe maiores esse qui iste fugit adipisci dolores id numquam! Inventore facilis dicta maxime odio quia? A earum ducimus, praesentium nesciunt libero expedita vitae aliquam, delectus repudiandae iste eaque consectetur repellat harum consequatur provident odio perferendis? Unde eligendi earum cupiditate inventore.
+    <div class="card p-0 border-0 " style={{width: "18rem"}}>
+      {/* <img src={Cabana011} class="card-img-top" alt="Cabana_011" /> */}
+      <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner  ">
+            <div class="carousel-item active ">
+              <img src={Cabana011} class="img-height img-fluid  rounded-4 d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src={Cabana012} class="img-height img-fluid rounded-4 d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src={Cabana013} class="img-height img-fluid rounded-4 d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+
+      <div class="card-body">
+        <p className="m-0 h6">Tunja, Boyacá</p>
+        <p className="m-0 fw-light">Huesped Ramiro Amaya</p>
+        <p className="card-text "><span className="fw-medium">$125.345 COP</span> noche</p>
+      </div>
     </div>
   );
 }

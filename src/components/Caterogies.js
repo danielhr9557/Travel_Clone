@@ -4,11 +4,11 @@ import { CategoriesCarousel } from "./CategoriesCarousel";
 
 function Categories() {
   return(
-    <div className="container second-navbar d-flex  ">
+    <div className="second-navbar d-flex mt-3 d-none d-md-flex ">
         <CategoriesCarousel />     
 
         {/* Filtros y precio sin impuestos */}
-        <div className="d-flex align-items-center ">
+        <div className="d-flex align-items-center mx-auto">
           <div className="btn btn-outline-secondary btn-settings btn-filters d-flex align-items-center" >
             <i class="bi bi-sliders"></i>
             <span className="label-filters">

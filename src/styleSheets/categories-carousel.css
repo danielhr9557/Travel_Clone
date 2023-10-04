@@ -1,5 +1,5 @@
 .carousel-div {
-  width: 590px;
+  width: 10%;
   
 }
 
@@ -25,9 +25,9 @@
   font-size: 13px;
 }
 
-.btn.btn-style.btn-first {
+/* .btn.btn-style.btn-first {
   padding-left: 0px;
-}
+} */
 
 .btn-style:hover {
   border-bottom: solid 2px gray;

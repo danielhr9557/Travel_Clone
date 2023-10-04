@@ -3,14 +3,14 @@ import "../styleSheets/categories-carousel.css";
 
 function CategoriesCarousel () {
   return (
-    <div className="d-flex">
+    <div className="d-flex mx-auto overflow-x-scroll ">
       
       <div className="d-flex justify-content-center">
-        <div className="btn btn-style btn-first d-flex flex-column " >
+        {/* <div className="btn btn-style btn-first d-flex flex-column " >
           <i className="bi bi-carousel bi-rocket-takeoff"></i>
           Impresionantes
-        </div>
-        <div className="btn btn-style d-flex flex-column " >
+        </div> */}
+        <div className="btn btn-style ps-0 d-flex flex-column " >
           <div class="bi bi-carousel">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mountain" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
               <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -53,10 +53,10 @@ function CategoriesCarousel () {
           Cabañas alejadas
         </div>
         
-        <div className="btn btn-style d-flex flex-column " >
+        {/* <div className="btn btn-style d-flex flex-column " >
           <i class="bi bi-carousel bi-snow"></i>
           Nieve
-        </div>
+        </div> */}
         <div className="btn btn-style d-flex flex-column " >
           <div className="bi bi-carousel">
               <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-ufo" width="25" height="25" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
