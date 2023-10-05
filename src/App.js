@@ -9,23 +9,24 @@ import CurrencyBottom from './components/CurrencyBottom';
 import { SearchingBar } from './components/SearchingBar';
 import { UserDropdown } from './components/UserDropdown';
 import { Categories } from './components/Caterogies';
-import { PlaceCard } from './components/PlaceCard';
+import { Cabana011, Domo011, Isla011, Montanas011 } from './components/PlaceCard';
 import { LangRegion, Currency } from './components/LangRegCur';
+import IMAGES from "./Images"
 
 
 
 function App() {
   return (
-    <div className="App ">
+    <div className="App bg-light">
       <nav className="navbar navbar-expand-md bg-light sticky-sm-top d-block ">
         <nav className="navbar navbar-expand-md pt-1 pb-2 border-bottom">
           <div className="container d-flex justify-content-between">
-            <a href="#" className="navbar-brand brand-name me-5 d-none d-md-block">Cloud</a>
+            <a href="#" className="navbar-brand brand-name me-5 d-none d-md-block">ViajaEli</a>
                 <form class="d-flex w-100 " role="search">
                   <input class="form-control me-2 " type="search" placeholder="¿A dónde quieres ir?" aria-label="Search"/>
                   <button class="btn btn-outline-success bg-success " type="submit"><i class="bi bi-search"></i></button>
                 </form>
-                <a href="#" className="text-decoration-none text-dark ps-2 text-nowrap d-none d-md-block ">Agrega tu espacio a Cloud</a>
+                <a href="#" className="text-decoration-none text-dark ps-2 text-nowrap d-none d-md-block ">Agrega tu espacio a ViajaEli</a>
                 <MixedLangRegCur />
                 <UserDropdown />
           </div>
@@ -37,9 +38,26 @@ function App() {
           </div>
         </div>
       </nav>
-
+      
       {/* Body */}
-      <div className="container   pt-4">
+      <div className="container pt-4">
+        <div className="container row justify-content-between d-flex p-0 m-0">
+          <Cabana011 />
+          <Domo011 />
+          <Isla011 />
+          <Montanas011 />
+        </div>
+      </div>
+      <div className="container pt-4">
+        <div className="container row justify-content-between d-flex p-0 m-0">
+          <Cabana011 />
+          <Domo011 />
+          <Isla011 />
+          <Montanas011 />
+        </div>
+      </div>
+
+      {/* <div className="container   pt-4">
         <div className="container row justify-content-between d-flex p-0 m-0">
           <PlaceCard />
           <PlaceCard />
@@ -48,51 +66,8 @@ function App() {
 
         </div>
         
-      </div>
+      </div> */}
 
-      <div className="container   pt-4">
-        <div className="container row justify-content-between d-flex p-0 m-0">
-          <PlaceCard />
-          <PlaceCard />
-          <PlaceCard />
-          <PlaceCard />
-
-        </div>
-        
-      </div>
-
-      <div className="container   pt-4">
-        <div className="container row justify-content-between d-flex p-0 m-0">
-          <PlaceCard />
-          <PlaceCard />
-          <PlaceCard />
-          <PlaceCard />
-
-        </div>
-        
-      </div>
-
-      <div className="container   pt-4">
-        <div className="container row justify-content-between d-flex p-0 m-0">
-          <PlaceCard />
-          <PlaceCard />
-          <PlaceCard />
-          <PlaceCard />
-
-        </div>
-        
-      </div>
-
-      <div className="container   pt-4">
-        <div className="container row justify-content-between d-flex p-0 m-0">
-          <PlaceCard />
-          <PlaceCard />
-          <PlaceCard />
-          <PlaceCard />
-
-        </div>
-        
-      </div>
 
       
       
