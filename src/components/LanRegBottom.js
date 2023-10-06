@@ -5,7 +5,7 @@ import "../App.css"
 function LanRegBottom () {
   return (
     <div className="middle">
-        <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button type="button" className="btn btn-link text-decoration-none text-dark fw-semibold" data-bs-toggle="modal" data-bs-target="#exampleModal">
           Español (CO)
         </button>
 

@@ -40,37 +40,26 @@ function App() {
       </nav>
       
       {/* Body */}
-      <div className="container pt-4">
-        <div className="container row justify-content-between d-flex p-0 m-0">
-          <Cabana011 />
-          <Domo011 />
-          <Isla011 />
-          <Montanas011 />
+      <div className="pb-4">
+        <div className="container pt-2 ">
+          <div className="container row justify-content-between d-flex p-0 m-0">
+            <Cabana011 />
+            <Domo011 />
+            <Isla011 />
+            <Montanas011 />
+          </div>
         </div>
+        <div className="container pt-4">
+          <div className="container row justify-content-between d-flex p-0 m-0">
+            <Cabana011 />
+            <Domo011 />
+            <Isla011 />
+            <Montanas011 />
+          </div>
+        </div>
+
       </div>
-      <div className="container pt-4">
-        <div className="container row justify-content-between d-flex p-0 m-0">
-          <Cabana011 />
-          <Domo011 />
-          <Isla011 />
-          <Montanas011 />
-        </div>
-      </div>
-
-      {/* <div className="container   pt-4">
-        <div className="container row justify-content-between d-flex p-0 m-0">
-          <PlaceCard />
-          <PlaceCard />
-          <PlaceCard />
-          <PlaceCard />
-
-        </div>
-        
-      </div> */}
-
-
-      
-      
+           
       {/* --- MixedLangRegCur Modal Code */}
       <div className="modal fade" id="MixedLangRegCur" tabIndex="-1" aria-labelledby="MixedLangRegCurLabel" aria-hidden="true">
         <div className="modal-dialog ">
@@ -111,19 +100,17 @@ function App() {
 
     {/* Testing Area  */}
 
-
-
-
-    <div className="bg-primary d-md-none d-sm-block ">
-        1
-      </div>
     {/* End of Testing Area */}
 
       {/* Separador del Body y Footer */}
-      <div style={{height: '700px'}}></div>
+      {/* <div style={{height: '700px'}}></div> */}
       
-      <footer>
-        <div className="container d-flex align-items-center justify-content-center">
+      <footer className="footer pt-3 pb-4 border-top">
+        <div className="container d-flex align-items-center ">
+          <p className="fw-normal m-0">&copy; 2023 ViajaEli, Inc.</p>
+          <div className="ms-auto">
+            <MixedLangRegCur />
+          </div>
           <LanRegBottom />
           <CurrencyBottom />
         </div>
