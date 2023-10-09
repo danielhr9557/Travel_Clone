@@ -1,7 +1,8 @@
 import React from "react";
 import "../styleSheets/place-card.css";
-// import {Cabana011, Cabana012, Cabana013 } from "../Images/";
 import IMAGES from "../Images"
+import { Link , Routes, Route, Outlet } from 'react-router-dom';
+import { PlacesInfo } from "./PlacesInfo.js";
 
 function Cabana011 () {
   return (
@@ -10,13 +11,23 @@ function Cabana011 () {
       <div id="carouselCabana011" class="carousel slide">
           <div class="carousel-inner  ">
             <div class="carousel-item active ">
-              <img src={ IMAGES.Cabana011 } class="img-height  rounded-4 d-block w-100" alt="..." />
+              <Link to="/PlacesInfo">
+                <img src={ IMAGES.Cabana011 } class="img-height  rounded-4 d-block w-100" alt="..." />
+              </Link>
             </div>
             <div class="carousel-item">
+            <Link to="/PlacesInfo">
               <img src={ IMAGES.Cabana012 } class="img-height rounded-4 d-block w-100" alt="..." />
+            </Link>
             </div>
             <div class="carousel-item">
+            <Link to="/PlacesInfo">
               <img src={ IMAGES.Cabana013 } class="img-height rounded-4 d-block w-100" alt="..." />
+            </Link>
+            {/* <Routes>
+              <Route path="/PlacesInfo" element={<PlacesInfo />}/>
+            </Routes> */}
+          
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselCabana011" data-bs-slide="prev">
@@ -35,6 +46,15 @@ function Cabana011 () {
         <p className="m-0 fw-light">Huesped Ramiro Amaya</p>
         <p className="card-text "><span className="fw-medium">$125.345 COP</span> noche</p>
       </div>
+
+      {/* Hello world!
+      <Link to="/About">About</Link>
+      <Link to="/Vans">Vans</Link>
+  
+      <Routes>
+        <Route path="/About" element={<About />}/>
+        <Route path="/Vans" element={<Vans />}/>
+      </Routes> */}
     </div>
   );
 }

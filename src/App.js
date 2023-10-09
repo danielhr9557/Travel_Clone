@@ -12,8 +12,8 @@ import { Categories } from './components/Caterogies';
 import { Cabana011, Domo011, Isla011, Montanas011 } from './components/PlaceCard';
 import { LangRegion, Currency } from './components/LangRegCur';
 import IMAGES from "./Images"
-
-
+import { Link, Routes, Route, Outlet } from "react-router-dom";
+import { PlacesInfo } from './components/PlacesInfo';
 
 function App() {
   return (
@@ -40,16 +40,14 @@ function App() {
       </nav>
       
       {/* Body */}
+     
+
+
       <div className="pb-4">
         <div className="container pt-2 ">
-          <div className="container row justify-content-between d-flex p-0 m-0">
-            <Cabana011 />
-            <Domo011 />
-            <Isla011 />
-            <Montanas011 />
-          </div>
-        </div>
-        <div className="container pt-4">
+        <Routes>
+        <Route path="/PlacesInfo" element={<PlacesInfo />}/>
+      </Routes>
           <div className="container row justify-content-between d-flex p-0 m-0">
             <Cabana011 />
             <Domo011 />
