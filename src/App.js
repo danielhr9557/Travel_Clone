@@ -14,6 +14,7 @@ import { LangRegion, Currency } from './components/LangRegCur';
 import IMAGES from "./Images"
 import { Link, Routes, Route, Outlet } from "react-router-dom";
 import { PlacesInfo } from './components/PlacesInfo';
+import { Home } from './components/Home';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
       <nav className="navbar navbar-expand-md bg-light sticky-sm-top d-block ">
         <nav className="navbar navbar-expand-md pt-1 pb-2 border-bottom">
           <div className="container d-flex justify-content-between">
-            <a href="#" className="navbar-brand brand-name me-5 d-none d-md-block">ViajaEli</a>
+            <Link to="/" className="navbar-brand brand-name me-5 d-none d-md-block">ViajaEli</Link>
                 <form class="d-flex w-100 " role="search">
                   <input class="form-control me-2 " type="search" placeholder="¿A dónde quieres ir?" aria-label="Search"/>
                   <button class="btn btn-outline-success bg-success " type="submit"><i class="bi bi-search"></i></button>
@@ -32,6 +33,7 @@ function App() {
           </div>
         </nav>
 
+        {/* En el futuro crear function para esconder este div y que no se vea al abrir places info */}
         <div className="navbar d-block pt-0">
           <div className="container ">
             <Categories />
@@ -40,21 +42,18 @@ function App() {
       </nav>
       
       {/* Body */}
-     
-
-
       <div className="pb-4">
-        <div className="container pt-2 ">
-        <Routes>
-        <Route path="/PlacesInfo" element={<PlacesInfo />}/>
-      </Routes>
-          <div className="container row justify-content-between d-flex p-0 m-0">
-            <Cabana011 />
-            <Domo011 />
-            <Isla011 />
-            <Montanas011 />
-          </div>
+        <div className="container pt-2">
+          <Routes>
+            <Route path="/" element={<Home />}/>
+            <Route path="/PlacesInfo" element={<PlacesInfo />}/>
+          </Routes>
+          
+
         </div>
+
+        {/* <BodyPlacesCards /> */}
+
 
       </div>
            
