@@ -12,7 +12,7 @@ function Cabana011 () {
           <div class="carousel-inner  ">
             <div class="carousel-item active ">
               <Link to="/PlacesInfo">
-                <img src={ IMAGES.Cabana011 } class="img-height  rounded-4 d-block w-100" alt="..." />
+                <img src={ IMAGES.Cabana011 } class="img-height rounded-4 d-block w-100" alt="..." />
               </Link>
             </div>
             <div class="carousel-item">
