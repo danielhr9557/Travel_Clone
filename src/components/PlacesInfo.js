@@ -128,15 +128,173 @@ function PlacesInfo () {
                 </div>
               </div>
             </div>
+          </div>
 
+          {/* Calendarios */}
+          <div className="border-bottom py-4 w-100">
+            <div className="h4 mb-2">Selecciona la fecha de llegada</div>
+            <div className="fw-light mb-3">Agrega las fechas del viaje para tener el precio exacto</div>
+            <div className="row w-100 bg-light">
+              <div className="col-6 table-responsive ">
+                <table className="table table-borderless table-light">
+                  <thead>
+                    <tr>
+                      <th colspan="7" className="fw-semibold text-center">Diciembre 2023</th>
+                    </tr>
+                  </thead>
+                  <tbody >
+                    <tr>
+                      <th class="fw-normal fs-days">Dom.</th>
+                      <th class="fw-normal fs-days">Lun.</th>
+                      <th class="fw-normal fs-days">Mar.</th>
+                      <th class="fw-normal fs-days">Mié.</th>
+                      <th class="fw-normal fs-days">Jue.</th>
+                      <th class="fw-normal fs-days">Vie.</th>
+                      <th class="fw-normal fs-days">Sáb.</th>
+                    </tr>
+                    <tr>
+                      <td class="fw-semibold"></td>
+                      <td class="fw-semibold"></td>
+                      <td class="fw-semibold"></td>
+                      <td class="fw-semibold"></td>
+                      <td class="fw-semibold"></td>
+                      <td class="fw-semibold"></td>
+                      <td class="fw-semibold">2</td>
+                    </tr>
+                    <tr>
+                      <td class="fw-semibold">3</td>
+                      <td class="fw-semibold">4</td>
+                      <td class="fw-semibold">5</td>
+                      <td class="fw-semibold">6</td>
+                      <td class="fw-semibold">7</td>
+                      <td class="fw-semibold">8</td>
+                      <td class="fw-semibold">9</td>
+                    </tr>
+                    <tr>
+                      <td class="fw-semibold">10</td>
+                      <td class="fw-semibold">11</td>
+                      <td class="fw-semibold">12</td>
+                      <td class="fw-semibold">13</td>
+                      <td class="fw-semibold">14</td>
+                      <td class="fw-semibold">15</td>
+                      <td class="fw-semibold">16</td>
+                    </tr>
+                    <tr>
+                      <td class="fw-semibold">17</td>
+                      <td class="fw-semibold">18</td>
+                      <td class="fw-semibold">19</td>
+                      <td class="fw-semibold">20</td>
+                      <td class="fw-semibold">21</td>
+                      <td class="fw-semibold">22</td>
+                      <td class="fw-semibold">23</td>
+                    </tr>
+                    <tr>
+                      <td class="fw-semibold">24</td>
+                      <td class="fw-semibold">25</td>
+                      <td class="fw-semibold">26</td>
+                      <td class="fw-semibold">27</td>
+                      <td class="fw-semibold">28</td>
+                      <td class="fw-semibold">29</td>
+                      <td class="fw-semibold">30</td>
+                    </tr>
+                    <tr>
+                      <td class="fw-semibold">31</td>
+                      <td class="fw-semibold"></td>
+                      <td class="fw-semibold"></td>
+                      <td class="fw-semibold"></td>
+                      <td class="fw-semibold"></td>
+                      <td class="fw-semibold"></td>
+                      <td class="fw-semibold"></td>
+                    </tr>
+                   
+                  </tbody>
+                </table>
+              </div>
 
+              <div className="col-6 table-responsive ">
+              <table className="table table-borderless table-light">
+                  <thead>
+                    <tr>
+                      <th colspan="7" className="fw-semibold text-center">Diciembre 2023</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th class="fw-normal fs-days">Dom.</th>
+                      <th class="fw-normal fs-days">Lun.</th>
+                      <th class="fw-normal fs-days">Mar.</th>
+                      <th class="fw-normal fs-days">Mié.</th>
+                      <th class="fw-normal fs-days">Jue.</th>
+                      <th class="fw-normal fs-days">Vie.</th>
+                      <th class="fw-normal fs-days">Sáb.</th>
+                    </tr>
+                    <tr>
+                      <td class="fw-semibold"></td>
+                      <td class="fw-semibold"></td>
+                      <td class="fw-semibold"></td>
+                      <td class="fw-semibold"></td>
+                      <td class="fw-semibold"></td>
+                      <td class="fw-semibold"></td>
+                      <td class="fw-semibold">2</td>
+                    </tr>
+                    <tr>
+                      <td class="fw-semibold">3</td>
+                      <td class="fw-semibold">4</td>
+                      <td class="fw-semibold">5</td>
+                      <td class="fw-semibold">6</td>
+                      <td class="fw-semibold">7</td>
+                      <td class="fw-semibold">8</td>
+                      <td class="fw-semibold">9</td>
+                    </tr>
+                    <tr>
+                      <td class="fw-semibold">10</td>
+                      <td class="fw-semibold">11</td>
+                      <td class="fw-semibold">12</td>
+                      <td class="fw-semibold">13</td>
+                      <td class="fw-semibold">14</td>
+                      <td class="fw-semibold">15</td>
+                      <td class="fw-semibold">16</td>
+                    </tr>
+                    <tr>
+                      <td class="fw-semibold">17</td>
+                      <td class="fw-semibold">18</td>
+                      <td class="fw-semibold">19</td>
+                      <td class="fw-semibold">20</td>
+                      <td class="fw-semibold">21</td>
+                      <td class="fw-semibold">22</td>
+                      <td class="fw-semibold">23</td>
+                    </tr>
+                    <tr>
+                      <td class="fw-semibold">24</td>
+                      <td class="fw-semibold">25</td>
+                      <td class="fw-semibold">26</td>
+                      <td class="fw-semibold">27</td>
+                      <td class="fw-semibold">28</td>
+                      <td class="fw-semibold">29</td>
+                      <td class="fw-semibold">30</td>
+                    </tr>
+                    <tr>
+                      <td class="fw-semibold">31</td>
+                      <td class="fw-semibold"></td>
+                      <td class="fw-semibold"></td>
+                      <td class="fw-semibold"></td>
+                      <td class="fw-semibold"></td>
+                      <td class="fw-semibold"></td>
+                      <td class="fw-semibold"></td>
+                    </tr>
+                   
+                  </tbody>
+                </table>
+              </div>
+
+            </div>
           </div>
           
         </div>
 
         {/* Div para stikcy bottom */}
         <div className="col-5">2</div>
-
+       
       </div>
 
         {/* Imagen que al quitar comentario hace que los amrgenes y paddings horizontales coincidan con Home */}
