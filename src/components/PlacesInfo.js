@@ -8,7 +8,7 @@ function PlacesInfo () {
     <div class="container px-5">
       <div className="d-flex  p-0 pb-3">
         <p className="h3">La Casa Roja</p>
-        <p className="ms-auto">Guardar</p>
+        <p className="ms-auto fw-medium"><i class="bi bi-heart me-2 mt-2"></i>Guardar</p>
       </div>
       <div class="row ">
         <div class="col-6 p-0">
@@ -84,6 +84,54 @@ function PlacesInfo () {
             </div>
           </div>
 
+          <div className="border-bottom py-4">
+            <p className="h4 mb-2">Lo que ofrece este lugar</p>
+            <div className="row">
+              <div className=" d-flex py-2 col-6">
+                <div className="d-flex align-items-center ">
+                  <i class="bi bi-wifi d-inline fs-3"></i>
+                  <div className="ms-3 py-2 fw-normal">Wifi</div>
+                </div>
+              </div>
+              <div className=" d-flex py-2 col-6">
+                <div className="d-flex align-items-center ">
+                <i class="bi bi-car-front-fill fs-3"></i>
+                  <div className="ms-3 py-2 fw-normal">Estacionamiento gratuito: 1 puesto</div>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className=" d-flex py-2 col-6">
+                <div className="d-flex align-items-center ">
+                <i class="bi bi-snow fs-3"></i>
+                  <div className="ms-3 py-2 fw-normal">Aire acondicionado</div>
+                </div>
+              </div>
+              <div className=" d-flex py-2 col-6">
+                <div className="d-flex align-items-center ">
+                <i class="bi bi-flower1 fs-3"></i>
+                  <div className="ms-3 py-2 fw-normal">Patio trasero</div>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className=" d-flex py-2 col-6">
+                <div className="d-flex align-items-center ">
+                <i class="bi bi-camera-video fs-3"></i>
+                  <div className="ms-3 py-2 fw-normal">Cámaras de seguridad</div>
+                </div>
+              </div>
+              <div className=" d-flex py-2 col-6">
+                <div className="d-flex align-items-center ">
+                <i class="bi bi-bandaid fs-3"></i>
+                  <div className="ms-3 py-2 fw-normal">Primeros auxilios</div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+          
         </div>
 
         {/* Div para stikcy bottom */}
