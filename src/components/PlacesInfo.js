@@ -3,6 +3,8 @@ import IMAGES from "../Images"
 import { Cabana011, Domo011, Isla011, Montanas011 } from "./PlaceCard";
 import "../styleSheets/places-info.css"
 
+import { DateRangeComp, DateRangeCompToggle } from "./DateRangeComps";
+
 function PlacesInfo () {
   return (
     <div class="container px-5">
@@ -131,7 +133,7 @@ function PlacesInfo () {
           </div>
 
           {/* Calendarios */}
-          <div className="border-bottom py-4 w-100">
+          {/* <div className="border-bottom py-4 w-100">
             <div className="h4 mb-2">Selecciona la fecha de llegada</div>
             <div className="fw-light mb-3">Agrega las fechas del viaje para tener el precio exacto</div>
             <div className="row w-100 bg-light">
@@ -288,12 +290,24 @@ function PlacesInfo () {
               </div>
 
             </div>
+          </div> */}
+
+          <div className="py-4">
+            <DateRangeComp />
           </div>
           
         </div>
 
         {/* Div para stikcy bottom */}
-        <div className="col-5">2</div>
+        <div className="col-5">
+          <div class="sticky-top reserve-box">
+            <div className="container mt-5 ms-5">
+              <p><span className="h3">$195.000 COP</span> Noche</p>
+              <p className="fw-bold"><i class="bi bi-star-fill"></i> 4.5 &#183; 3 Reseñas</p>
+              <DateRangeCompToggle />
+            </div>
+          </div>
+        </div>
        
       </div>
 

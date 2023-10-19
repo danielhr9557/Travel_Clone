@@ -1,0 +1,18 @@
+.date-box-toggle {
+  position: absolute;
+  transform: translateX(-30%);
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  /* left: 0;
+  background-color: #fff;
+  z-index: 1000; */
+}
+
+.input-box-toggle {
+  border-top-right-radius: 20px ;
+  border-top-left-radius: 20px;
+}
+
+.rdrDateDisplayWrapper {
+  display:none;
+}

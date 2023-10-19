@@ -34,11 +34,11 @@ function App() {
         </nav>
 
         {/* En el futuro crear function para esconder este div y que no se vea al abrir places info */}
-        <div className="navbar d-block pt-0">
+        {/* <div className="navbar d-block pt-0">
           <div className="container ">
             <Categories />
           </div>
-        </div>
+        </div> */}
       </nav>
       
       {/* Body */}
