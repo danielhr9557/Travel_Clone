@@ -80,28 +80,45 @@ const DateRangeCompToggle = () => {
   }
 
   return (
-    <div className="calendarWrap ">
+    <div className="calendarWrap border ">
 
-      <input
+      {/* <input
         value={`${format(range[0].startDate, "MM/dd/yyyy")} to ${format(range[0].endDate, "MM/dd/yyyy")}`}
         readOnly
         className="inputBox "
         onClick={ () => setOpen(open => !open) }
-      />
+      /> */}
 
       {/* Inputs personalizados */}
-      <p onClick={ () => setOpen(open => !open) }>
-        <span className='d-block'>
-          Llegada
-        </span>
-        {`${format(range[0].startDate, "MM/dd/yyyy")}`}
-      </p>
-      <p onClick={ () => setOpen(open => !open) }>
-      <span className='d-block'>
-          Salida
-        </span>
-        {`${format(range[0].endDate, "MM/dd/yyyy")}`}
-      </p>
+     
+        <div className=" d-flex ">
+          <div className="btn border-secondary w-50" onClick={ () => setOpen(open => !open) }>
+            <span className='d-block'>
+              Llegada
+            </span>
+            {`${format(range[0].startDate, "MM/dd/yyyy")}`}
+          </div>
+          <div className="btn border-secondary w-50" onClick={ () => setOpen(open => !open) }>
+          <span className='d-block'>
+              Salida
+            </span>
+            {`${format(range[0].endDate, "MM/dd/yyyy")}`}
+          </div>
+        </div>
+        <div className="dropdown">
+          <div className="btn border-secondary w-100 dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" data-bs-display="static" >
+            Huéspedes
+          </div>
+          <ul class="dropdown-menu w-100">
+            <li><p class="mx-3"><span className="fw-bold d-block">Adultos</span>Edad: 13 o más</p></li>
+            <li><p class="mx-3"><span className="fw-bold d-block">Niños</span>Edad: 2 a 12</p></li>
+            <li><p class="mx-3"><span className="fw-bold d-block">Bebés</span>Edad: menos de 2 años</p></li>
+            <li><p class="mx-3"><span className="fw-bold d-block">Mascotas</span></p></li>
+            <li><p class="mx-3 text-wrap guests-info">Este alojamiento tiene una capacidad máxima de 2 huéspedes, sin contar bebés. No se permiten mascotas.</p></li>
+          </ul>
+        </div>
+
+
       
 
       <div ref={refOne}>

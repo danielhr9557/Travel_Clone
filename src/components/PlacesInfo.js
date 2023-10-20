@@ -300,11 +300,14 @@ function PlacesInfo () {
 
         {/* Div para stikcy bottom */}
         <div className="col-5">
-          <div class="sticky-top reserve-box">
-            <div className="container mt-5 ms-5">
-              <p><span className="h3">$195.000 COP</span> Noche</p>
-              <p className="fw-bold"><i class="bi bi-star-fill"></i> 4.5 &#183; 3 Reseñas</p>
-              <DateRangeCompToggle />
+          <div class="sticky-top reserve-box d-flex">
+            <div className="ms-auto me-5 ">
+              <div className="container mt-5 border ">
+                <p><span className="h3">$195.000 COP</span> Noche</p>
+                <p className="fw-bold"><i class="bi bi-star-fill"></i> 4.5 &#183; 3 Reseñas</p>
+                <DateRangeCompToggle />
+              </div>
+
             </div>
           </div>
         </div>

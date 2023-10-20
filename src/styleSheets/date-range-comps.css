@@ -1,6 +1,6 @@
 .date-box-toggle {
   position: absolute;
-  transform: translateX(-30%);
+  transform: translateX(-50%);
   border: 1px solid #ccc;
   border-radius: 20px;
   /* left: 0;
@@ -15,4 +15,8 @@
 
 .rdrDateDisplayWrapper {
   display:none;
+}
+
+.guests-info {
+  font-size: 12px;
 }
